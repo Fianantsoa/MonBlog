@@ -1,0 +1,107 @@
+.interaction{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-column: span 2;
+    margin-bottom: 34px;
+}
+.interaction button{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5px;
+    border: rgb(204, 202, 202) solid;
+    align-items: center;
+}
+.interaction button:hover{
+    background-color: #0085A1;
+}
+.interaction img{
+    width: 24px;
+}
+
+.post-meta{
+    grid-column: span 1;
+}
+
+.interaction .number{
+    margin: 0;
+}
+
+.search_case{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 60px;
+    align-content: center;
+}
+
+.search_case button{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    border: solid white 1px;
+    height: 35px;
+}
+
+.search_case button:hover{
+  background-color: #0085A1;
+}
+
+.search_case input{
+    grid-column: span 2;
+    grid-column-start: 1;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+.formulaire_login{
+  color: white;
+}
+.form_login{
+    max-width: 500px;
+}
+
+.sign_up{
+    display: none;
+}
+.login_hidden{
+    display: none;
+}
+.error {
+    color: red;
+}
+
+.new_post{
+    grid-column: span 2;
+    margin: 0 0 31px;
+    color: white;
+}
+
+.div_commentaire p{
+    margin: 0;
+    font-size: 16px;
+}
+.div_commentaire{
+    display: grid;
+    grid-template-columns: 25% auto;
+    grid-column: span 2;
+    row-gap: 8px;
+}
+.commentaire{
+    background-color: rgb(221, 220, 220);
+    border-radius: 0 10px 10px 10px;
+    padding: 3px;
+    padding-left: 10px;
+}
+.sendComment{
+    display: grid;
+    grid-template-columns: auto 100px;
+    grid-column: span 2;
+    margin-top: 13px;
+    font-size: 16px;
+}
+
+.sendComment button{
+    background-color: #0085A1;
+    color: white;
+    font-weight:bolder;
+}
+.sendComment button:hover{
+    background-color: #017b94;
+}
